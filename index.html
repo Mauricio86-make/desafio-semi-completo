@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>DevClub Converter Money</title>
+</head>
+
+<body>
+
+</body>
+<img class="logo" src="./assets/mão com dinherio.png.png" alt="logo_Dev_Club_Converter_Money">
+<main>
+    <label>
+        Converter <b>de</b>:
+        <select>
+            <option>R$ Real Brasileiro</option>
+        </select>
+    </label>
+
+    <label>
+        Converter <b>para</b>:
+        <select class="currency-Select">
+            <option value="Dolar">US$ Dólar americano</option>
+            <option value="Euro">€ Euro</option>
+            <option value="Libras">£ Libras Esterlinas</option>
+            <option value="Bitcoin">₿ Bitcoin</option>
+        </select>
+    </label>
+
+    <label>
+        Valor:
+        <input class="input-currency" placeholder="R$ 10.000,00">
+    </label>
+
+    <button class="Convert-Button">Converter</button>
+
+    <section>
+        <div class="currncy-box">
+            <img src="./assets/real.png" alt="Real">
+            <p class="currency">Real</p>
+            <p class="currency-value-to-convert">R$ 0.0</p>
+        </div>
+        <br>
+        <img class="arrow.img" src="./assets/flecha.png" alt="flecha">
+        <br>
+        <div class="currncy-box">
+            <img class="currency-img" src="./assets/dolar.png" alt="Dolar">
+            <p class="currency" id="Currency-Name">Dolar americano</p>
+            <p class="currency-value">US$ 0.0</p>
+        </div>
+    </section>
+
+</main>
+<div>
+    <p class="termo_de_Condiçoes">O cálculo efetuado tem caráter informativo e não substitui as disposições da norma
+        cambial brasileira para casos
+        específicos de conversão.
+        Conversões disponíveis para datas informadas a partir de 01/02/1999.
+        Para dias não úteis, assume-se a cotação do dia útil imediatamente anterior.
+        O Banco Central não assume qualquer responsabilidade pela não simultaneidade ou falta das informações prestadas,
+        assim como por eventuais erros de paridades das moedas, ou qualquer outro, salvo a paridade relativa ao dólar
+        dos Estados Unidos da América em relação ao Real. Igualmente, não se responsabiliza pelos atrasos ou
+        indisponibilidade de serviços de telecomunicação, interrupção, falha ou pelas imprecisões no fornecimento dos
+        serviços ou informações. Não assume, também, responsabilidade por qualquer perda ou dano oriundo de tais
+        interrupções, atrasos, falhas ou imperfeições, bem como pelo uso inadequado das informações contidas na
+        transação.</p>
+</div>
+<script src="./script.js"></script>
+
+
+</html>
